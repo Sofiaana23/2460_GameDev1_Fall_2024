@@ -1,18 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class SpriteBehaviourObject : MonoBehaviour
+[RequireComponent(typeof(SpriteRenderer))]
+public class SpriteBehaviour : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private SpriteRenderer rendererObj;
+
+    private void Start()
     {
-        
+        rendererObj = GetComponent<SpriteRenderer>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ChangeRendererColor (ColorID obj)
     {
-        
+        rendererObj.color = obj.value;
     }
 }

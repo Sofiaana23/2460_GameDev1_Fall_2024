@@ -361,7 +361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c148f025ee5f7419b4a08cc8073f91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idObj: {fileID: 11400000, guid: 9fa25a51fbfa51241831bf36d905e08d, type: 2}
+  idObj: {fileID: 11400000, guid: b82267bfa7c148146b7b0e0e659265f1, type: 2}
 --- !u!1 &751934823
 GameObject:
   m_ObjectHideFlags: 0
@@ -657,6 +657,7 @@ GameObject:
   - component: {fileID: 1753876085}
   - component: {fileID: 1753876084}
   - component: {fileID: 1753876083}
+  - component: {fileID: 1753876088}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
@@ -792,6 +793,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1753876088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753876082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c148f025ee5f7419b4a08cc8073f91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idObj: {fileID: 11400000, guid: b82267bfa7c148146b7b0e0e659265f1, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
