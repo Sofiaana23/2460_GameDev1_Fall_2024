@@ -7,7 +7,7 @@ using UnityEngine.Events;
 
 public class TextLabelBehaviour : MonoBehaviour
 {
-    public Text label;
+    private Text label;
     public UnityEvent startEvent;
 
     private void Start()
