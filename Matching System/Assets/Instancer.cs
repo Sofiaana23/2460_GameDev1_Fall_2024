@@ -2,17 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Instancer : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+[CreateAssetMenu]
 
-    // Update is called once per frame
-    void Update()
+public class Instancer : ScriptableObject
+{
+    public void CreateInstance(GameObject obj) 
     {
-        
+        Instantiate(obj);
     }
 }
