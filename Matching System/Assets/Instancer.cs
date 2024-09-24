@@ -10,9 +10,13 @@ public class Instancer : ScriptableObject
         Instantiate(prefab);
     }
 
-    public void CreateInstance (Vector3Data obj) 
+    public void CreateInstance(Vector3Data obj) 
     {
         Instantiate(prefab, obj.value, Quaternion.identity);
     }
 
+    public void CreateInstance(Vector3DataList obj)
+    {
+        Instantiate(prefab, obj.vector3Dlist[0].value, Quaternion.identity);
+    }
 }
